@@ -15,7 +15,7 @@ print("logging in")
 r_object.login('user_name', 'password') # works best if account has been verified to avoid captcha
 time.sleep(5)
 print("sending pm")
-r_object.send_message('recipient', 'subject', 'message') # optional notification that the bot is turned on
+r_object.send_message('recipient', 'subject', 'comment bot has been activated') # optional notification that the bot is turned on
 time.sleep(5)
 user_to_stalk = r_object.get_redditor('user_name') # the user who's comments will be monitored
 last_comment = None
@@ -38,5 +38,5 @@ while True:
             print('no new comment found')
     except:
         print('Error: ', sys.exc_info()[0])
-r_object.send_message('recipient', 'subject', 'message') # optional noficication that the bot has been terminated
+r_object.send_message('recipient', 'subject', 'comment bot has been deactivated') # optional noficication that the bot has been terminated
 print("Finished")
