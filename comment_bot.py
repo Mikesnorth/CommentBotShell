@@ -3,7 +3,7 @@ import time
 import sys
 
 # Original Author : Mike North
-# Free for use by anyone for any legal purpose
+# Free for use by anyone for any non commercial legal purpose
 # Designed as a shell to be customized and expanded upon
 # For help, check the PRAW documentation at https://praw.readthedocs.org/en/latest/genindex.html
   
