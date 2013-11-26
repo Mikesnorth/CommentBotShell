@@ -1,4 +1,4 @@
-import praw # you will need to download and install praw
+import praw # you will need to download and install praw - easily done with pip
 import time
 import sys
 
