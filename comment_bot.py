@@ -6,6 +6,8 @@ import sys
 # Free for use by anyone for any non commercial legal purpose
 # Designed as a shell to be customized and expanded upon
 # For help, check the PRAW documentation at https://praw.readthedocs.org/en/latest/genindex.html
+# Praw is supposed to handle request timing so you don't overwork reddits servers, however I have
+# received a notice in the past to slow down so I added additional waiting time
   
 print("initializing")
 number_of_comments_posted = 0
